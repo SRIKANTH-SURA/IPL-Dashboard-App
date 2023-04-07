@@ -1,0 +1,22 @@
+.team-matches-container {
+  background-image: linear-gradient(to top, #1e293b, #d91c1f);
+  /* height: 100vh; */
+  padding: 15px;
+}
+
+.team-banner {
+  margin-bottom: 20px;
+}
+
+.team-banner-img {
+  width: 100%;
+}
+
+.latest-heading {
+  font-family: 'Bree Sreif';
+  font-size: 22px;
+  color: #ffffff;
+  margin: 0;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
