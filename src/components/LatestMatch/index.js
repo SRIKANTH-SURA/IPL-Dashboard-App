@@ -2,22 +2,10 @@ import './index.css'
 
 const LatestMatch = props => {
   const {latestMatchDetails} = props
-  console.log(latestMatchDetails)
-  const updatedLatestMatchDetails = {
-    id: latestMatchDetails.id,
-    competingTeam: latestMatchDetails.competing_team,
-    competingTeamLogo: latestMatchDetails.competing_team_logo,
-    date: latestMatchDetails.date,
-    firstInnings: latestMatchDetails.first_innings,
-    manOfTheMatch: latestMatchDetails.man_of_the_match,
-    matchStatus: latestMatchDetails.match_status,
-    result: latestMatchDetails.result,
-    secondInnings: latestMatchDetails.second_innings,
-    umpires: latestMatchDetails.umpires,
-    venue: latestMatchDetails.venue,
-  }
+  //   console.log(latestMatchDetails)
 
   const {
+    id,
     competingTeam,
     competingTeamLogo,
     date,
@@ -28,7 +16,7 @@ const LatestMatch = props => {
     secondInnings,
     umpires,
     venue,
-  } = updatedLatestMatchDetails
+  } = latestMatchDetails
 
   return (
     <div className="latest-match-details">
@@ -42,7 +30,7 @@ const LatestMatch = props => {
         <img
           className="competingTeam-logo"
           src={competingTeamLogo}
-          alt={competingTeam}
+          alt={`latest match ${competingTeam}`}
         />
       </div>
       <div className="innings-details">

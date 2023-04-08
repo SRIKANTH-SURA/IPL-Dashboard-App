@@ -49,7 +49,7 @@ class Home extends Component {
     const {isLoading} = this.state
     return isLoading ? (
       <div className="loader-spinner" data-testid="loader">
-        <Loader type="TailSpin" color="#00bfff" height={50} width={50} />
+        <Loader type="Oval" color="#ffffff" height={50} width={50} />
       </div>
     ) : (
       this.renderHomeComponent()

@@ -1,7 +1,54 @@
+.bg-color-RCB {
+  background-color: #a4261d;
+}
+
+.bg-color-KKR {
+  background-color: #5755a7;
+}
+
+.bg-color-KXP {
+  background-color: #d91c1f;
+}
+
+.bg-color-CSK {
+  background-color: #e9d557;
+}
+
+.bg-color-RR {
+  background-color: #da237b;
+}
+
+.bg-color-MI {
+  background-color: #13418b;
+}
+
+.bg-color-SH {
+  background-color: #f26d22;
+}
+
+.bg-color-DC {
+  background-color: #4f5db0;
+}
+
 .team-matches-container {
-  background-image: linear-gradient(to top, #1e293b, #d91c1f);
-  /* height: 100vh; */
   padding: 15px;
+}
+
+.team-matches-page {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .team-matches-page {
+    width: 90%;
+  }
+}
+
+@media (min-width: 968px) {
+  .team-matches-page {
+    width: 75%;
+  }
 }
 
 .team-banner {
@@ -19,4 +66,14 @@
   margin: 0;
   font-weight: bold;
   margin-bottom: 20px;
+}
+
+.match-card {
+  margin: 40px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 0px;
 }
